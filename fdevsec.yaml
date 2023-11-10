@@ -22,8 +22,8 @@ id:
 #  full_scan: true #true|false
 
 # Language scanners run sequentially by default. Can be configured to run in parallel.
-#resource:
-#  serial_scan: true #true|false
+resource:
+  serial_scan: false #true|false
 
 # CI/CD pipeline fails when risk rating(range 0-9) exceeds the configured value.
 #fail_pipeline:
